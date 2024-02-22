@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordes con CSS</title>
+    <style>
+        .contenedor {
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #333; /* Borde por defecto */
+        }
+        .box {
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        .solido {
+            border-style: solid;
+            border-color: #FF5733;
+            border-width: 3px;
+        }
+        .segmentado {
+            border-style: dashed;
+            border-color: #337FFF;
+            border-width: 4px;
+        }
+        .punteado {
+            border-style: dotted;
+            border-color: #33FF33;
+            border-width: 5px;
+        }
+
+        .borde1 {
+            border: 2px solid #FF3377;
+        }
+        .borde2 {
+            border: 3px dashed #3377FF;
+        }
+        .borde3 {
+            border: 4px dotted #33FF33;
+        }
+        .borde4 {
+            border: 5px double #FF5733;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="solido">Borde Sólido</div>
+        <div class="segmentado">Borde Segmentado</div>
+        <div class="punteado">Borde Punteado</div>
+        <div class="borde1">Borde Personalizado con 2 valores</div>
+        <div class="borde2">Borde Personalizado con 3 valores</div>
+        <div class="borde3">Borde Personalizado con 4 valores</div>
+        <div class="borde4">Borde Personalizado con 5 valores</div>
+    </div>
+</body>
+</html>

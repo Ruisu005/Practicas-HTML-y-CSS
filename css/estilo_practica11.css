@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+}
+
+#caja1, #caja3 {
+    background-color: blueviolet;
+    width: 800px;
+}
+
+#caja2 {
+    background-color: brown;
+    position: absolute;
+    width: 800px;
+    top: 40px;
+    left: 30px;
+}

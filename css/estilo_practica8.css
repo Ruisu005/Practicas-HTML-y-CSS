@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.global {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0cc19;
+}
+
+.bartolo {
+    padding: 20px;
+    background-color: #3ae019;
+    width: auto;
+    height: 600px;
+}
+
+
+.catalina, .nombre {
+    flex: 3;
+    padding: 20px;
+    height: 276px;
+    width: 600px;
+    margin:  5px;
+    text-align: center;
+    background-color: #23e5f3;
+}
+

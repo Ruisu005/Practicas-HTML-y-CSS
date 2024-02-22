@@ -1,0 +1,36 @@
+.caja_verde {
+    width: 28%;
+    height: 120px;
+    overflow: visible;
+    background-color: green;
+    position: relative;
+    top: 35px;
+    padding: 5px;
+    margin: 5px;
+    content: 5px;
+}
+
+.caja_amarilla {
+    top: 100px;
+    padding: 5px;
+    margin: 5px;
+    content: 5px;
+    position: relative;
+    width: 23%;
+    height: 100px;
+    overflow: auto;
+    background-color: yellow;
+}
+
+.caja_roja {
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+    content: 5px;
+    top: -80px;
+    position: relative;
+    width: 18%;
+    height: 100px;
+    left: 50%;
+    overflow: hidden;
+}
